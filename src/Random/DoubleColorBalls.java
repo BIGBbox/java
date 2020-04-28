@@ -7,7 +7,7 @@ public class DoubleColorBalls {
         //因为双色球中蓝球只有一个，为了方便就直接把篮球和红球放在一个数组里了， 获取一个长度为7且数字都不重复的数组
         int RedBalls[] = Random(1, 34, 7);
 
-        //直接遍历输出看下结果，以便查看测试
+        //直接遍历输出看下结果，以便测试
         System.out.print("红球池：");
         for (int i = 0; i < RedBalls.length - 1; i++) {
             System.out.print(RedBalls[i] + "\t");
@@ -72,7 +72,6 @@ public class DoubleColorBalls {
 
     }
 
-//    @org.jetbrains.annotations.NotNull
    //生成数字不重复的随机数组
     public static int[] Random(int Min, int Max, int length) {
         int[] Ran = new int[length];
