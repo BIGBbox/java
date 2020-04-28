@@ -2,8 +2,7 @@ package Random;
 
 import java.util.Scanner;
 public class DoubleColorBalls {
-
-
+    
     public static void main(String[] args) {
         //获取一个长度为7且数字都不重复的数组
         int RedBalls[] = Random(1, 34, 7);
