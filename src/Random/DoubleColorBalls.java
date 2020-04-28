@@ -2,7 +2,7 @@ package Random;
 
 import java.util.Scanner;
 public class DoubleColorBalls {
-    
+
     public static void main(String[] args) {
         //获取一个长度为7且数字都不重复的数组
         int RedBalls[] = Random(1, 34, 7);
@@ -47,6 +47,7 @@ public class DoubleColorBalls {
                 Guess[i + 1] = num;
                 break;
             }
+            //控制台输出提醒语句
             System.out.println("请输入第" + count + "红球号码");
         }
 
