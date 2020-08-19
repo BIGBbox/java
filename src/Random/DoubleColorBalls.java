@@ -11,7 +11,6 @@ public class DoubleColorBalls {
         System.out.print("红球池：");
         for (int i = 0; i < RedBalls.length - 1; i++) {
             System.out.print(RedBalls[i] + "\t");
-
         }
         System.out.println();
         System.out.println("篮球：" + RedBalls[6]);
