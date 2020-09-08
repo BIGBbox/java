@@ -17,7 +17,9 @@ function getWeightNum(num)
 	return t
 end
 
+
 --local num = 98764
 --local t = getWeightNum(num)
+--print(t)
 --t = {9,8,7,6,4}
 
